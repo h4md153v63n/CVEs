@@ -10,13 +10,10 @@
 ## References:
 
 ## Description:
-
 E-Commerce Website 1.0 allows SQL Injection via parameter 'search' in "/Electricks/Electricks-shop/index_search.php".
 Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
-
 ## Proof of Concept:
-
 Go to the Search Product textbox: "http://localhost/Electricks/Electricks-shop/index_search.php"
 Fill Enter product name and search.
 Intercept the request via Burp Suite and send to Repeater.
