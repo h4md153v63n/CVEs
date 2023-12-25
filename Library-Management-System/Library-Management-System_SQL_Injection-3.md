@@ -13,8 +13,7 @@
 + https://www.cve.org/CVERecord?id=CVE-2023-7111
 
 ## Description:
-Library Management System 2.0 allows SQL Injection via parameter 'category' in "/libsystem/index.php?category=1".
-Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
+Library Management System 2.0 allows SQL Injection via parameter 'category' in "/libsystem/index.php?category=1". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
 + Go to the application: "http://localhost/libsystem/index.php"
@@ -63,5 +62,3 @@ current database: 'libsystem'
 
 + current database: `libsystem`
 ![3](https://github.com/h4md153v63n/CVEs/assets/5091265/2f9bc202-cb7c-4622-ac38-69252d03bfe5)
-
-
