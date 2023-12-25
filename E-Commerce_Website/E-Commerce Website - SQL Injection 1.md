@@ -1,10 +1,13 @@
-# Exploit Title: E-Commerce Website - SQL Injection
+# E-Commerce Website - SQL Injection 1
++ Exploit Title: E-Commerce Website - SQL Injection
 + Date: 2023-24-12
 + Exploit Author: Hamdi Sevben
 + Vendor Homepage: https://code-projects.org/e-commerce-website-in-php-with-source-code/
 + Software Link: https://download-media.code-projects.org/2020/01/E-COMMERCE_WEBSITE_IN_PHP_WITH_SOURCE_CODE.zip
 + Version: 1.0
 + Tested on: Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
+
+## References:
 
 ## Description:
 
