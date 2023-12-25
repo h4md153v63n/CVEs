@@ -11,8 +11,7 @@
 ## References: 
 
 ## Description:
-Voting System 1.0 allows SQL Injection via parameter 'username' in "/votesystem/admin/".
-Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
+Voting System 1.0 allows SQL Injection via parameter 'username' in "/votesystem/admin/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
 + Go to the admin login page: "http://localhost/votesystem/admin/"
