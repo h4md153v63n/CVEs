@@ -11,8 +11,7 @@
 ## References: 
 
 ## Description:
-College Notes Gallery 2.0 allows SQL Injection via parameter 'user' in "/notes/login.php".
-Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
+College Notes Gallery 2.0 allows SQL Injection via parameter 'user' in "/notes/login.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
 + Go to the login page: "http://localhost/notes/login.php"
