@@ -11,10 +11,7 @@
 ## References: 
 
 ## Description:
-E-commerce Site 1.0 allows Reflected Cross-site Scripting via parameter 'keyword' in "/ecommerce/search.php".
-E-commerce Site is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data.
-An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. 
-This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
+E-commerce Site 1.0 allows Reflected Cross-site Scripting via parameter 'keyword' in "/ecommerce/search.php". E-commerce Site is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data. An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
 
 ## Proof of Concept:
 + Go to the Search for Product: "http://localhost/ecommerce/search.php"
