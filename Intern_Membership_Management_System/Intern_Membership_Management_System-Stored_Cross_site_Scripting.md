@@ -11,7 +11,7 @@
 ## References: 
 
 ## Description:
-Intern Membership Management System 2.0 allows Stored Cross-site Scripting via parameters 'userName','firstName', 'lastName', and 'userEmail' in "/intern/user_registration/".
+Intern Membership Management System 2.0 allows Stored Cross-site Scripting via parameters 'userName', 'firstName', 'lastName', and 'userEmail' in "/intern/user_registration/".
 Intern Membership Management System is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data.
 An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. 
 This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
