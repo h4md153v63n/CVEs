@@ -5,7 +5,7 @@
 + **Vendor Homepage:** https://code-projects.org/voting-system-in-php-with-source-code/
 + **Software Link:** https://download-media.code-projects.org/2020/02/VOTING_SYSTEM_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 1.0
-+ T**ested on:** Kali Linux + PHP 8.2.12, Apache 2.4.58
++ **Tested on:** Kali Linux + PHP 8.2.12, Apache 2.4.58
 + **CVE:** CVE-
 
 ## References: 
