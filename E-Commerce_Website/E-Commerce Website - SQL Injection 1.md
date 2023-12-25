@@ -14,11 +14,11 @@ E-Commerce Website 1.0 allows SQL Injection via parameter 'search' in "/Electric
 Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
-Go to the Search Product textbox: "http://localhost/Electricks/Electricks-shop/index_search.php"
-Fill Enter product name and search.
-Intercept the request via Burp Suite and send to Repeater.
-Copy and paste the request to a "r.txt" file.
-Use sqlmap to exploit.
++Go to the Search Product textbox: "http://localhost/Electricks/Electricks-shop/index_search.php"
++Fill Enter product name and search.
++Intercept the request via Burp Suite and send to Repeater.
++Copy and paste the request to a "r.txt" file.
++Use sqlmap to exploit.
 
 ---
 
