@@ -1,5 +1,5 @@
 # CVE-2023-7108_E-Commerce Website - Stored Cross-site Scripting
-+ **Exploit Title:** E-Commerce Website - Stored Cross-site Scripting
++ **Exploit Title:** CVE-2023-7108_E-Commerce Website - Stored Cross-site Scripting
 + **Date:** 2023-24-12
 + **Exploit Author:** Hamdi Sevben
 + **Vendor Homepage:** https://code-projects.org/e-commerce-website-in-php-with-source-code/
