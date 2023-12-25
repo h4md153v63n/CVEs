@@ -11,8 +11,7 @@
 ## References: 
 
 ## Description:
-Voting System 1.0 allows SQL Injection via parameter 'voter' in "/votesystem/".
-Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
+Voting System 1.0 allows SQL Injection via parameter 'voter' in "/votesystem/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
 + Go to the voters login page: "http://localhost/votesystem/"
