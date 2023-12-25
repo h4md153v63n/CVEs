@@ -11,8 +11,7 @@
 ## References: 
 
 ## Description:
-Automated Voting System 1.0 allows SQL Injection via parameter 'idno' in "/automated%20voting/".
-Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
+Automated Voting System 1.0 allows SQL Injection via parameter 'idno' in "/automated%20voting/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
 + Go to the voter panel: "http://localhost/automated%20voting/"
