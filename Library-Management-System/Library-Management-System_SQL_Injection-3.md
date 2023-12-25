@@ -1,14 +1,16 @@
-# Library-Management-System_SQL_Injection-3
-+ **Exploit Title:** Library-Management-System_SQL_Injection-3
+# CVE-2023-7111_Library-Management-System_SQL_Injection-3
++ **Exploit Title:** CVE-2023-7111_Library-Management-System_SQL_Injection-3
 + **Date:** 2023-23-12
 + **Exploit Author:** Hamdi Sevben
 + **Vendor Homepage:** https://code-projects.org/library-management-system-in-php-with-source-code-ver-2-0/
 + **Software Link:** https://download-media.code-projects.org/2020/02/LIBRARY_MANAGEMENT_SYSTEM_IN_PHP_WITH_SOURCE_CODE_VER.2.0.zip
 + **Version:** 2.0
 + **Tested on:** Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
-+ **CVE:** CVE-
++ **CVE:** CVE-2023-7111
   
 ## References: 
++ **CVE-2023-7111:** https://vuldb.com/?id.249006
++ https://www.cve.org/CVERecord?id=CVE-2023-7111
 
 ## Description:
 Library Management System 2.0 allows SQL Injection via parameter 'category' in "/libsystem/index.php?category=1".
