@@ -13,8 +13,7 @@
 + https://www.cve.org/CVERecord?id=CVE-2023-7109
 
 ## Description:
-Library Management System 2.0 allows SQL Injection via parameter 'username' in "/libsystem/admin/login.php".
-Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
+Library Management System 2.0 allows SQL Injection via parameter 'username' in "/libsystem/admin/login.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
 + Go to the admin panel: "http://localhost/libsystem/admin/login.php"
