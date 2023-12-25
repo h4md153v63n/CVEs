@@ -13,8 +13,7 @@
 + https://www.cve.org/CVERecord?id=CVE-2023-7107
 
 ##  Description:
-E-Commerce Website 1.0 allows SQL Injection via parameters 'firstname', 'middlename', 'email', 'address', 'contact' and 'username' in "/Electricks/Electricks-shop/pages/user_signup.php".
-Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
+E-Commerce Website 1.0 allows SQL Injection via parameters 'firstname', 'middlename', 'email', 'address', 'contact' and 'username' in "/Electricks/Electricks-shop/pages/user_signup.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
 + Go to the user registration form: "http://localhost/Electricks/Electricks-shop/pages/user_signup.php"
