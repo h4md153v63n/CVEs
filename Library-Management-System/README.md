@@ -3,7 +3,7 @@ Library Management System project is developed using PHP, JavaScript, Bootstrap,
 
 ## Vulnerabilities:
 
-### CVE-2023-7109
+### 🎯 CVE-2023-7109
 + **Description:** SQL Injection vulnerability via `/admin/login.php` with 'username' parameter.
 + **Affected Version:** 1.0
 + **Affected File:** `/libsystem/admin/login.php`
@@ -12,7 +12,7 @@ Library Management System project is developed using PHP, JavaScript, Bootstrap,
 + **Solution:** Implement parameterized queries and proper input validation for the affected parameters.
 + **Proof of Concept (PoC):** https://github.com/h4md153v63n/CVEs/blob/main/Library-Management-System/Library-Management-System_SQL_Injection-1.md
 
-### CVE-2023-7110
+### 🎯 CVE-2023-7110
 + **Description:** SQL Injection vulnerability via `login.php` with 'student' parameter.
 + **Affected Version:** 1.0
 + **Affected File:** `/libsystem/login.php`
@@ -21,7 +21,7 @@ Library Management System project is developed using PHP, JavaScript, Bootstrap,
 + **Solution:** Implement parameterized queries and proper input validation for the affected parameters.
 + **Proof of Concept (PoC):** https://github.com/h4md153v63n/CVEs/blob/main/Library-Management-System/Library-Management-System_SQL_Injection-2.md
 
-### CVE-2023-7111
+### 🎯 CVE-2023-7111
 + **Description:** SQL Injection vulnerability via `index.php?category=1` with 'category' parameter.
 + **Affected Version:** 1.0
 + **Affected File:** `/libsystem/index.php?category=1`
