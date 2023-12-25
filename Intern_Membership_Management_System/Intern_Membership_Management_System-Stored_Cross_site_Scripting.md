@@ -11,7 +11,7 @@
 ## References: 
 
 ## Description:
-Intern Membership Management System 2.0 allows Stored Cross-site Scripting via parameters 'userName','firstName', 'lastName', '' and 'userEmail' in "/intern/user_registration/".
+Intern Membership Management System 2.0 allows Stored Cross-site Scripting via parameters 'userName','firstName', 'lastName', and 'userEmail' in "/intern/user_registration/".
 Intern Membership Management System is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data.
 An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. 
 This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
@@ -22,7 +22,7 @@ This may allow the attacker to steal cookie-based authentication credentials and
 + Fill 'userName','firstName', 'lastName', '' and 'userEmail' parameters on the form and click 'Register' button.
 + The Stored XSS will be triggered.
 + Alerts will pop-up permanently.
-+ Example request for 'userName','firstName', 'lastName', '' and 'userEmail' parameters:
++ Example request for 'userName', 'firstName', 'lastName', and 'userEmail' parameters:
 ```
 POST /intern/user_registration/index.php HTTP/1.1
 Host: localhost
@@ -48,4 +48,3 @@ userName=%22%3E%3CScRiPt%3Econfirm%28document.domain%29%3C%2FScRiPt%3Eh0la&first
 ![2](https://github.com/h4md153v63n/CVEs/assets/5091265/8c711e71-94df-48eb-98af-9b16fbbecd31)
 ![2_xss](https://github.com/h4md153v63n/CVEs/assets/5091265/1a45f2d0-4bfa-4a20-9b7e-59f8d6aba24d)
 ![2_xss-2](https://github.com/h4md153v63n/CVEs/assets/5091265/337eeddd-d66f-4dd9-8887-923637a2b680)
-
