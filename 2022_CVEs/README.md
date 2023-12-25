@@ -12,7 +12,7 @@ The Simple Task Managing System in PHP With MySQLi is a simple web system coded 
 + **Solution:** Implement parameterized queries and proper input validation for the affected parameters.
 + **Proof of Concept (PoC):** https://github.com/h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated
 
-+ ## Intern Record System V1.0
+## Intern Record System V1.0
 The Intern Record System In PHP is a simple mini project for managing the records of interns. The project contains the admin side. The admin can view all the users and employers. They can add and view the employer details, but cannot delete their accounts. This project is a simple project that makes a convenient way for any company to store details
 
 ### CVE-2022-40347
