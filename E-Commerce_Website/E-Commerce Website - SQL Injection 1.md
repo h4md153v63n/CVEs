@@ -1,19 +1,19 @@
 # Exploit Title: E-Commerce Website - SQL Injection
-# Date: 2023-24-12
-# Exploit Author: Hamdi Sevben
-# Vendor Homepage: https://code-projects.org/e-commerce-website-in-php-with-source-code/
-# Software Link: https://download-media.code-projects.org/2020/01/E-COMMERCE_WEBSITE_IN_PHP_WITH_SOURCE_CODE.zip
-# Version: 1.0
-# Tested on: Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
++ Date: 2023-24-12
++ Exploit Author: Hamdi Sevben
++ Vendor Homepage: https://code-projects.org/e-commerce-website-in-php-with-source-code/
++ Software Link: https://download-media.code-projects.org/2020/01/E-COMMERCE_WEBSITE_IN_PHP_WITH_SOURCE_CODE.zip
++ Version: 1.0
++ Tested on: Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
 
-1. Description:
+## Description:
 ----------------------
 
 E-Commerce Website 1.0 allows SQL Injection via parameter 'search' in "/Electricks/Electricks-shop/index_search.php".
 Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 
-2. Proof of Concept:
+## Proof of Concept:
 ----------------------
 
 Go to the Search Product textbox: "http://localhost/Electricks/Electricks-shop/index_search.php"
