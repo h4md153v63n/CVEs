@@ -72,6 +72,6 @@ back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
 current database: 'voting'
 ```
 
-+ current database: voting
++ current database: `voting`
 ![01](https://github.com/h4md153v63n/CVEs/assets/5091265/654f8856-e854-4018-8208-8ca07971bb50)
 
