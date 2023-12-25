@@ -11,8 +11,7 @@
 ## References: 
 
 ## Description:
-Automated Voting System 1.0 allows SQL Injection via parameter 'username' in "/automated%20voting/admin/".
-Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
+Automated Voting System 1.0 allows SQL Injection via parameter 'username' in "/automated%20voting/admin/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
 + Go to the admin panel: "http://localhost/automated%20voting/admin/"
@@ -74,4 +73,3 @@ current database: 'voting'
 
 + current database: `voting`
 ![01](https://github.com/h4md153v63n/CVEs/assets/5091265/654f8856-e854-4018-8208-8ca07971bb50)
-
