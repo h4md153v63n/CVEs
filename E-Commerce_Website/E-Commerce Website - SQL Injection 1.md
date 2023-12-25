@@ -1,4 +1,4 @@
-# E-Commerce Website - SQL Injection 1
+# CVE-2023-7105_E-Commerce Website - SQL Injection 1
 + **Exploit Title:** E-Commerce Website - SQL Injection 1
 + **Date:** 2023-24-12
 + **Exploit Author:** Hamdi Sevben
