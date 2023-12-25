@@ -3,7 +3,7 @@ E-Commerce Website project is developed using PHP, CSS, Bootstrap, and JavaScrip
 
 ## Vulnerabilities:
 
-### CVE-2023-7105
+### 🎯 CVE-2023-7105
 + **Description:** SQL Injection vulnerability via `index_search.php` with 'search' parameter.
 + **Affected Version:** 1.0
 + **Affected File:** `/Electricks/Electricks-shop/index_search.php`
@@ -12,7 +12,7 @@ E-Commerce Website project is developed using PHP, CSS, Bootstrap, and JavaScrip
 + **Solution:** Implement parameterized queries and proper input validation for the affected parameters.
 + **Proof of Concept (PoC):** https://github.com/h4md153v63n/CVEs/blob/main/E-Commerce_Website/E-Commerce%20Website%20-%20SQL%20Injection%201.md
 
-### CVE-2023-7106
+### 🎯 CVE-2023-7106
 + **Description:** SQL Injection vulnerability via `/product_details.php?prod_id=11` with 'prod_id' parameter.
 + **Affected Version:** 1.0
 + **Affected File:** `/Electricks/Electricks-shop/pages/product_details.php?prod_id=11`
@@ -21,7 +21,7 @@ E-Commerce Website project is developed using PHP, CSS, Bootstrap, and JavaScrip
 + **Solution:** Implement parameterized queries and proper input validation for the affected parameters.
 + **Proof of Concept (PoC):** https://github.com/h4md153v63n/CVEs/blob/main/E-Commerce_Website/E-Commerce%20Website%20-%20SQL%20Injection%202.md
 
-### CVE-2023-7107
+### 🎯 CVE-2023-7107
 + **Description:** SQL Injection vulnerability via `user_signup.php` with 'firstname', 'middlename', 'email', 'address', 'contact' and 'username' parameters.
 + **Affected Version:** 1.0
 + **Affected File:** `/Electricks/Electricks-shop/pages/user_signup.php`
@@ -30,7 +30,7 @@ E-Commerce Website project is developed using PHP, CSS, Bootstrap, and JavaScrip
 + **Solution:** Implement parameterized queries and proper input validation for the affected parameters.
 + **Proof of Concept (PoC):** https://github.com/h4md153v63n/CVEs/blob/main/E-Commerce_Website/E-Commerce%20Website%20-%20SQL%20Injection%203.md
 
-### CVE-2023-7108
+### 🎯 CVE-2023-7108
 + **Description:** Stored Cross-Site Scripting (XSS) vulnerability via `user_signup.php` with 'firstname' parameter.
 + **Affected Version:** 1.0
 + **Affected File:** `Electricks/Electricks-shop/pages/user_signup.php`
