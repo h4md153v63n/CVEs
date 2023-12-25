@@ -6,9 +6,11 @@
 + **Software Link:** https://download-media.code-projects.org/2020/01/E-COMMERCE_WEBSITE_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 1.0
 + **Tested on:** Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
-+ **CVE:** CVE-
++ **CVE:** CVE-2023-7107
 
 ## References: 
++ **CVE-2023-7107:** https://vuldb.com/?id.249002
++ https://www.cve.org/CVERecord?id=CVE-2023-7107
 
 ##  Description:
 E-Commerce Website 1.0 allows SQL Injection via parameters 'firstname', 'middlename', 'email', 'address', 'contact' and 'username' in "/Electricks/Electricks-shop/pages/user_signup.php".
