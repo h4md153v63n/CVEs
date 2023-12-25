@@ -71,3 +71,4 @@ current database: 'electricks'
 
 current database: electricks
 
+![1](https://github.com/h4md153v63n/CVEs/assets/5091265/e2d64c21-ad38-4af7-977c-d140d0642a28)
