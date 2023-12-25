@@ -65,6 +65,6 @@ back-end DBMS: MySQL >= 5.0 (MariaDB fork)
 current database: 'libsystem'
 ```
 
-+ current database: libsystem
++ current database: `libsystem`
 ![2](https://github.com/h4md153v63n/CVEs/assets/5091265/f6d52d8d-69a3-4915-a235-3126417374ec)
 
