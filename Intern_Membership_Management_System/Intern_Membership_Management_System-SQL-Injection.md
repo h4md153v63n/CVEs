@@ -11,8 +11,7 @@
 ## References: 
 
 ## Description:
-Intern Membership Management System 2.0 allows SQL Injection via parameters 'userName', 'firstName', 'lastName', and 'gender' in "/intern/user_registration/".
-Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
+Intern Membership Management System 2.0 allows SQL Injection via parameters 'userName', 'firstName', 'lastName', and 'gender' in "/intern/user_registration/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
 + Go to the user registration page: "http://localhost/intern/user_registration/"
@@ -112,7 +111,6 @@ current database: 'db_issm'
 
 + current database: `db_issm`
 ![1_sqlmap](https://github.com/h4md153v63n/CVEs/assets/5091265/ab492034-196a-4f84-b0d0-3fbbbc25ae87)
-
 
 + Example payload:
 ```
