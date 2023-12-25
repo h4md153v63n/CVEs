@@ -1,12 +1,12 @@
 # Automated_Voting_System-SQL_Injection-2
-+ Exploit Title: Automated_Voting_System-SQL_Injection-2
-+ Date: 2023-23-12
-+ Exploit Author: Hamdi Sevben
-+ Vendor Homepage: https://code-projects.org/automated-voting-system-in-php-with-source-code/
-+ Software Link: https://download-media.code-projects.org/2020/02/AUTOMATED_VOTING_SYSTEM_IN_PHP_WITH_SOURCE_CODE.zip
-+ Version: 1.0
-+ Tested on: Kali Linux + PHP 8.2.12, Apache 2.4.58
-+ CVE: CVE-
++ **Exploit Title:** Automated_Voting_System-SQL_Injection-2
++ **Date:** 2023-23-12
++ **Exploit Author:** Hamdi Sevben
++ **Vendor Homepage:** https://code-projects.org/automated-voting-system-in-php-with-source-code/
++ **Software Link:** https://download-media.code-projects.org/2020/02/AUTOMATED_VOTING_SYSTEM_IN_PHP_WITH_SOURCE_CODE.zip
++ **Version:** 1.0
++ **Tested on:** Kali Linux + PHP 8.2.12, Apache 2.4.58
++ **CVE:** CVE-
 
 ## References: 
 
