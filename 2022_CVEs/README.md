@@ -28,7 +28,7 @@ The Intern Record System In PHP is a simple mini project for managing the record
 + **Description:** Stored Cross-Site Scripting (XSS) vulnerability via `controller.php` with 'name' and 'email' parameters.
 + **Affected Version:** 1.0
 + **Affected File:** `/intern/controller.php`
-+ **Vulnerable Parameter:** ''name' and 'email'
++ **Vulnerable Parameter:** 'name' and 'email'
 + **Impact:** Attackers can inject and execute malicious scripts.
 + **Solution:** Implement proper input validation, sanitize user-supplied data and output encoding.
 + **Proof of Concept (PoC):** https://github.com/h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated
