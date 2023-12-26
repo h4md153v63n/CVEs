@@ -11,6 +11,7 @@
 ## References: 
 + **CVE-2023-7110:** https://vuldb.com/?id.249005
 + https://www.cve.org/CVERecord?id=CVE-2023-7110
++ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7110
 
 ## Description:
 Library Management System 2.0 allows SQL Injection via parameter 'student' in "/libsystem/login.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
