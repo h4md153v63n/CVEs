@@ -16,7 +16,7 @@ An attacker may leverage this issue to execute arbitrary script code in the brow
 
 ## Proof of Concept:
 + Go to the login panel: "http://localhost/recordmanagement/"
-+ Login with admin:admin
++ Login with `admin`:`admin`
 + Go to the Offices: "http://localhost/recordmanagement/main/offices.php"
 + Then go to the xsshunter app on https://xsshunter.trufflesecurity.com and login.
 + XSS PAYLOADS -> Copy Payload "Basic <script> Tag Payload"
