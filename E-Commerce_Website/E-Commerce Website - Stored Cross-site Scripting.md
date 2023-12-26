@@ -11,6 +11,7 @@
 ## References: 
 + **CVE-2023-7108:** https://vuldb.com/?id.249003
 + https://www.cve.org/CVERecord?id=CVE-2023-7108
++ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7108
 
 ## Description:
 E-Commerce Website 1.0 allows Stored Cross-site Scripting via parameter 'firstname' in "Electricks/Electricks-shop/pages/user_signup.php". E-Commerce Website is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data. An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
