@@ -33,6 +33,5 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 ```
 
 ![1](https://github.com/h4md153v63n/CVEs/assets/5091265/6f94b7e5-6ca1-4818-9a32-9bd990afa2ef)
-
-
+<br>
 ![1-2](https://github.com/h4md153v63n/CVEs/assets/5091265/c9a8d093-c58a-4e6c-a848-92cfc4672ca8)
