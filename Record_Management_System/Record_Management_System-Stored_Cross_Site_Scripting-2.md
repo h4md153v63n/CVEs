@@ -11,8 +11,7 @@
 ## References: 
 
 ## Description:
-Record Management System 1.0 allows Stored Cross-Site Scripting via parameter 'docname' in "/recordmanagement/main/doctype.php". Record Management System is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data.
-An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
+Record Management System 1.0 allows Stored Cross-Site Scripting via parameter 'docname' in "/recordmanagement/main/doctype.php". Record Management System is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data. An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
 
 ## Proof of Concept:
 + Go to the login panel: "http://localhost/recordmanagement/"
@@ -23,7 +22,9 @@ An attacker may leverage this issue to execute arbitrary script code in the brow
 + Refresh and alert will continue to pop-up.
 
 ![2-1](https://github.com/h4md153v63n/CVEs/assets/5091265/584f0f11-b43d-4143-9656-1ffb32e1aebc)
-
+<br>
+<br>
 ![2-2](https://github.com/h4md153v63n/CVEs/assets/5091265/e1c93d56-9891-4199-ab01-735060851847)
-
+<br>
+<br>
 ![2-3](https://github.com/h4md153v63n/CVEs/assets/5091265/7955ccb6-3eaf-4adf-8456-099bfec252b3)
