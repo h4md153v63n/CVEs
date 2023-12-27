@@ -1,14 +1,16 @@
-# E-commerce_Site-Reflected_Cross_Site_Scripting
-+ **Exploit Title:** E-commerce_Site-Reflected_Cross_Site_Scripting
+# CVE-2023-7124_E-commerce_Site-Reflected_Cross_Site_Scripting
++ **Exploit Title:** CVE-2023-7124_E-commerce_Site-Reflected_Cross_Site_Scripting
 + **Date:** 2023-23-12
 + **Exploit Author:** Hamdi Sevben
 + **Vendor Homepage:** https://code-projects.org/e-commerce-site-in-php-with-source-code/
 + **Software Link:** https://download-media.code-projects.org/2019/10/E-COMMERCE_SITE_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 1.0
 + **Tested on:** Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
-+ **CVE:** CVE-
++ **CVE:** CVE-2023-7124
 
 ## References: 
++ **CVE-2023-7124:** https://vuldb.com/?id.249096
++ https://www.cve.org/CVERecord?id=CVE-2023-7124
 
 ## Description:
 E-commerce Site 1.0 allows Reflected Cross-site Scripting via parameter 'keyword' in "/ecommerce/search.php". E-commerce Site is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data. An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
