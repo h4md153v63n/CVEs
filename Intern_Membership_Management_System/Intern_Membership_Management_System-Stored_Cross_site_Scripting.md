@@ -42,6 +42,7 @@ userName=%22%3E%3CScRiPt%3Econfirm%28document.domain%29%3C%2FScRiPt%3Eh0la&first
 ```
 
 + Example payload: `"><ScRiPt>confirm(document.domain)</ScRiPt>h0la`
+
 ![2](https://github.com/h4md153v63n/CVEs/assets/5091265/8c711e71-94df-48eb-98af-9b16fbbecd31)
 <br>
 <br>
