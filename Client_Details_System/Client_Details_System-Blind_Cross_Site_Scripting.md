@@ -25,20 +25,18 @@ An attacker may leverage this issue to execute arbitrary script code in the brow
 + Check Reports.
 
 ![7-1](https://github.com/h4md153v63n/CVEs/assets/5091265/51ded0aa-4808-4b61-896e-e8e99a315a73)
-
+<br>
+<br>
 ![7-2](https://github.com/h4md153v63n/CVEs/assets/5091265/51f60b4d-0fe7-478c-884c-f16060b25fea)
-
+<br>
+<br>
 ![7-3](https://github.com/h4md153v63n/CVEs/assets/5091265/f195eb57-e2c2-4d70-b81f-ba46819c6ab4)
-
+<br>
+<br>
 ![7-4](https://github.com/h4md153v63n/CVEs/assets/5091265/588bd279-e6dd-4350-a2ce-5bb4f8097be4)
-
+<br>
+<br>
 ![7-5](https://github.com/h4md153v63n/CVEs/assets/5091265/1460887d-799b-4999-8f0f-3433393fe77b)
-
+<br>
+<br>
 ![7-6](https://github.com/h4md153v63n/CVEs/assets/5091265/ff4effde-880b-49bc-8aba-b8cc3885b0f6)
-
-
-
-
-
-
-
