@@ -11,8 +11,7 @@
 ## References: 
 
 ## Description:
-Record Management System 1.0 allows Blind Cross-Site Scripting via parameter 'docname' in "/recordmanagement/main/doctype.php". Record Management System is vulnerable to a blind cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data.
-An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
+Record Management System 1.0 allows Blind Cross-Site Scripting via parameter 'docname' in "/recordmanagement/main/doctype.php". Record Management System is vulnerable to a blind cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data. An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
 
 ## Proof of Concept:
 + Go to the login panel: "http://localhost/recordmanagement/"
@@ -25,9 +24,12 @@ An attacker may leverage this issue to execute arbitrary script code in the brow
 + Check Reports.
 
 ![4-1](https://github.com/h4md153v63n/CVEs/assets/5091265/8bfdf785-ec1f-4c13-b744-0a113fb5dc7b)
-
+<br>
+<br>
 ![4-2](https://github.com/h4md153v63n/CVEs/assets/5091265/3b18e148-3622-4695-88f6-57291836d32c)
-
+<br>
+<br>
 ![4-3](https://github.com/h4md153v63n/CVEs/assets/5091265/d8c1cf8c-ce5f-46fd-bc21-cfcbfe0a2d93)
-
+<br>
+<br>
 ![4-4](https://github.com/h4md153v63n/CVEs/assets/5091265/b15fbf45-0d73-45f1-8cc2-7a06ab8b7c78)
