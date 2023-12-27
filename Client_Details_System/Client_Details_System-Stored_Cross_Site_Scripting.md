@@ -23,6 +23,6 @@ An attacker may leverage this issue to execute arbitrary script code in the brow
 + Refresh and alert will continue to pop-up.
 
 ![8](https://github.com/h4md153v63n/CVEs/assets/5091265/2f2c7ec3-ed0c-4d83-810e-4dcb3fa66ebc)
-
+<br>
+<br>
 ![8-2](https://github.com/h4md153v63n/CVEs/assets/5091265/f0dce129-7d86-40ce-9f02-9f8fb47cb40e)
-
