@@ -11,8 +11,7 @@
 ## References: 
 
 ## Description:
-Record Management System 1.0 allows Stored Cross-Site Scripting via parameter 'officename' in "/recordmanagement/main/offices.php". Record Management System is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data.
-An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
+Record Management System 1.0 allows Stored Cross-Site Scripting via parameter 'officename' in "/recordmanagement/main/offices.php". Record Management System is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data. An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
 
 ## Proof of Concept:
 + Go to the login panel: "http://localhost/recordmanagement/"
@@ -23,6 +22,6 @@ An attacker may leverage this issue to execute arbitrary script code in the brow
 + Refresh and alert will continue to pop-up.
 
 ![1-1](https://github.com/h4md153v63n/CVEs/assets/5091265/c725742a-5296-4bf7-af0c-34927ff562d0)
-
+<br>
+<br>
 ![1-2](https://github.com/h4md153v63n/CVEs/assets/5091265/07dc543f-aa3d-478c-9e73-4644e3c28e9f)
-
