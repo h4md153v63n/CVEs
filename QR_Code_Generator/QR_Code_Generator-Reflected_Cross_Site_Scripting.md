@@ -11,6 +11,7 @@
 ## References: 
 + **CVE-2023-7149:** https://vuldb.com/?id.249153
 + https://www.cve.org/CVERecord?id=CVE-2023-7149
++ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7149
 
 ## Description:
 QR Code Generator 1.0 allows Reflected Cross-site Scripting via parameter 'file' in "/qr-codegen/download.php?file=author.png". QR Code Generator is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data.
