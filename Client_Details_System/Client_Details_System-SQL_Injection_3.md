@@ -11,6 +11,7 @@
 ## References: 
 + **CVE-2023-7139:** https://vuldb.com/?id.249142
 + https://www.cve.org/CVERecord?id=CVE-2023-7139
++ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7139
 
 ## Description:
 Client Details System 1.0 allows SQL Injection via parameters 'fname', 'lname', 'email' and 'contact' in "/clientdetails/admin/regester.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
