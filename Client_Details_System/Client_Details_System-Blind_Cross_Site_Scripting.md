@@ -1,14 +1,16 @@
-# Client_Details_System-Blind_Cross_Site_Scripting
-+ **Exploit Title:** Client_Details_System-Blind_Cross_Site_Scripting
+# CVE-2023-7143_Client_Details_System-Blind_Cross_Site_Scripting
++ **Exploit Title:** CVE-2023-7143_Client_Details_System-Blind_Cross_Site_Scripting
 + **Date:** 2023-26-12
 + **Exploit Author:** Hamdi Sevben
 + **Vendor Homepage:** https://code-projects.org/client-details-system-in-php-with-source-code/
 + **Software Link:** https://download-media.code-projects.org/2020/01/CLIENT_DETAILS_SYSTEM_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 1.0
 + **Tested on:** Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
-+ **CVE:** CVE-
++ **CVE:** CVE-2023-7143
 
 ## References: 
++ **CVE-2023-7143:** https://vuldb.com/?id.249146
++ https://www.cve.org/CVERecord?id=CVE-2023-7143
 
 ## Description:
 Client_Details_System 1.0 allows Blind Cross-Site Scripting via parameters 'fname', 'lname', 'email' and 'contact' in "/clientdetails/admin/regester.php". Client_Details_System is vulnerable to a blind cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data.
