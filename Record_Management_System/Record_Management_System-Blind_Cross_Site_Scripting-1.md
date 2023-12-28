@@ -11,6 +11,7 @@
 ## References: 
 + **CVE-2023-7135:** https://vuldb.com/?id.249138
 + https://www.cve.org/CVERecord?id=CVE-2023-7135
++ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7135
 
 ## Description:
 Record Management System 1.0 allows Blind Cross-Site Scripting via parameter 'officename' in "/recordmanagement/main/offices.php". Record Management System is vulnerable to a blind cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data. An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
