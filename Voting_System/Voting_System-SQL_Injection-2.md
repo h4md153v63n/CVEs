@@ -11,6 +11,7 @@
 ## References: 
 + **CVE-2023-7129:** https://vuldb.com/?id.249132
 + https://www.cve.org/CVERecord?id=CVE-2023-7129
++ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7129
 
 ## Description:
 Voting System 1.0 allows SQL Injection via parameter 'voter' in "/votesystem/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
