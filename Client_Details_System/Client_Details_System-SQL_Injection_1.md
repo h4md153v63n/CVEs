@@ -6,7 +6,7 @@
 + **Software Link:** https://download-media.code-projects.org/2020/01/CLIENT_DETAILS_SYSTEM_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 1.0
 + **Tested on:** Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
-+ **CVE:** CCVE-2023-7137
++ **CVE:** CVE-2023-7137
 
 ## References: 
 + **CVE-2023-7137:** https://vuldb.com/?id.249140
