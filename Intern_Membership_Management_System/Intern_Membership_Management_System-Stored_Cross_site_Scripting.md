@@ -11,6 +11,7 @@
 ## References: 
 + **CVE-2023-7132:** https://vuldb.com/?id.249135
 + https://www.cve.org/CVERecord?id=CVE-2023-7132
++ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7132
 
 ## Description:
 Intern Membership Management System 2.0 allows Stored Cross-site Scripting via parameters 'userName', 'firstName', 'lastName', and 'userEmail' in "/intern/user_registration/". Intern Membership Management System is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data. An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
