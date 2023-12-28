@@ -1,14 +1,16 @@
-# QR_Code_Generator-Reflected_Cross_Site_Scripting
-+ **Exploit Title:** QR_Code_Generator-Reflected_Cross_Site_Scripting
+# CVE-2023-7149_QR_Code_Generator-Reflected_Cross_Site_Scripting
++ **Exploit Title:** CVE-2023-7149_QR_Code_Generator-Reflected_Cross_Site_Scripting
 + **Date:** 2023-27-12
 + **Exploit Author:** Hamdi Sevben
 + **Vendor Homepage:** https://code-projects.org/qr-code-generator-in-php-with-source-code/
 + **Software Link:** https://download-media.code-projects.org/2020/01/QR_CODE_GENERATOR_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 1.0
 + **Tested on:** Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
-+ **CVE:** CVE-
++ **CVE:** CVE-2023-7149
 
 ## References: 
++ **CVE-2023-7149:** https://vuldb.com/?id.249153
++ https://www.cve.org/CVERecord?id=CVE-2023-7149
 
 ## Description:
 QR Code Generator 1.0 allows Reflected Cross-site Scripting via parameter 'file' in "/qr-codegen/download.php?file=author.png". QR Code Generator is vulnerable to a cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data.
