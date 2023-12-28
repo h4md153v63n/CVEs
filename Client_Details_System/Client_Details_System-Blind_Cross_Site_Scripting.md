@@ -12,6 +12,7 @@
 + **CVE-2023-7143:** https://vuldb.com/?id.249146
 + https://www.cve.org/CVERecord?id=CVE-2023-7143
 + https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7143
++ https://nvd.nist.gov/vuln/detail/CVE-2023-7143
 
 ## Description:
 Client_Details_System 1.0 allows Blind Cross-Site Scripting via parameters 'fname', 'lname', 'email' and 'contact' in "/clientdetails/admin/regester.php". Client_Details_System is vulnerable to a blind cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data.
