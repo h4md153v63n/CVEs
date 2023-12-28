@@ -11,6 +11,7 @@
 ## References: 
 + **CVE-2023-7138:** https://vuldb.com/?id.249141
 + https://www.cve.org/CVERecord?id=CVE-2023-7138
++ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7138
 
 ## Description:
 Client Details System 1.0 allows SQL Injection via parameter 'username' in "/clientdetails/admin". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
