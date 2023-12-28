@@ -12,6 +12,7 @@
 + **CVE-2023-7140:** https://vuldb.com/?id.249143
 + https://www.cve.org/CVERecord?id=CVE-2023-7140
 + https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7140
++ https://nvd.nist.gov/vuln/detail/CVE-2023-7140
 
 ## Description:
 Client Details System 1.0 allows SQL Injection via parameter 'id' in "/clientdetails/admin/manage-users.php?id=1". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
