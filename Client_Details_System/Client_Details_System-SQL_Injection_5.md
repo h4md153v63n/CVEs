@@ -12,6 +12,7 @@
 + **CVE-2023-7141:** https://vuldb.com/?id.249144
 + https://www.cve.org/CVERecord?id=CVE-2023-7141
 + https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7141
++ https://nvd.nist.gov/vuln/detail/CVE-2023-7141
 
 ## Description:
 Client Details System 1.0 allows SQL Injection via parameter 'uid' in "/clientdetails/admin/update-clients.php?uid=3". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
