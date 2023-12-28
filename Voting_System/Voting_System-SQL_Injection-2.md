@@ -1,14 +1,16 @@
-# Voting_System-SQL_Injection-2
-+ **Exploit Title:** Voting_System-SQL_Injection-2
+# CVE-2023-7129_Voting_System-SQL_Injection-2
++ **Exploit Title:** CVE-2023-7129_Voting_System-SQL_Injection-2
 + **Date:** 2023-23-12
 + **Exploit Author:** Hamdi Sevben
 + **Vendor Homepage:** https://code-projects.org/voting-system-in-php-with-source-code/
 + **Software Link:** https://download-media.code-projects.org/2020/02/VOTING_SYSTEM_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 1.0
 + **Tested on:** Kali Linux + PHP 8.2.12, Apache 2.4.58
-+ **CVE:** CVE-
++ **CVE:** CVE-2023-7129
 
 ## References: 
++ **CVE-2023-7129:** https://vuldb.com/?id.249132
++ https://www.cve.org/CVERecord?id=CVE-2023-7129
 
 ## Description:
 Voting System 1.0 allows SQL Injection via parameter 'voter' in "/votesystem/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
