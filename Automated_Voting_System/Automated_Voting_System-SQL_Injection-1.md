@@ -1,14 +1,16 @@
-# Automated_Voting_System-SQL_Injection-1
-+ **Exploit Title:** Automated_Voting_System-SQL_Injection-1
+# CVE-2023-7126_Automated_Voting_System-SQL_Injection-1
++ **Exploit Title:** CVE-2023-7126_Automated_Voting_System-SQL_Injection-1
 + **Date:** 2023-23-12
 + **Exploit Author:** Hamdi Sevben
 + **Vendor Homepage:** https://code-projects.org/automated-voting-system-in-php-with-source-code/
 + **Software Link:** https://download-media.code-projects.org/2020/02/AUTOMATED_VOTING_SYSTEM_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 1.0
 + **Tested on:** Kali Linux + PHP 8.2.12, Apache 2.4.58
-+ **CVE:** CVE-
++ **CVE:** CVE-2023-7126
 
 ## References: 
++ **CVE-2023-7126:** https://vuldb.com/?id.249129
++ https://www.cve.org/CVERecord?id=CVE-2023-7126
 
 ## Description:
 Automated Voting System 1.0 allows SQL Injection via parameter 'username' in "/automated%20voting/admin/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
