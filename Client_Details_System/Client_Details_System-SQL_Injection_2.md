@@ -1,14 +1,16 @@
-# Client_Details_System-SQL_Injection_2
-+ **Exploit Title:** Client_Details_System-SQL_Injection_2
+# CVE-2023-7138_Client_Details_System-SQL_Injection_2
++ **Exploit Title:** CVE-2023-7138_Client_Details_System-SQL_Injection_2
 + **Date:** 2023-26-12
 + **Exploit Author:** Hamdi Sevben
 + **Vendor Homepage:** https://code-projects.org/client-details-system-in-php-with-source-code/
 + **Software Link:** https://download-media.code-projects.org/2020/01/CLIENT_DETAILS_SYSTEM_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 1.0
 + **Tested on:** Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
-+ **CVE:** CVE-
++ **CVE:** CVE-2023-7138
 
 ## References: 
++ **CVE-2023-7138:** https://vuldb.com/?id.249141
++ https://www.cve.org/CVERecord?id=CVE-2023-7138
 
 ## Description:
 Client Details System 1.0 allows SQL Injection via parameter 'username' in "/clientdetails/admin". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
