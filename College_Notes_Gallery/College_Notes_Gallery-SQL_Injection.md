@@ -12,6 +12,7 @@
 + **CVE-2023-7130:** https://vuldb.com/?id.249133
 + https://www.cve.org/CVERecord?id=CVE-2023-7130
 + https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7130
++ https://nvd.nist.gov/vuln/detail/CVE-2023-7130
 
 ## Description:
 College Notes Gallery 2.0 allows SQL Injection via parameter 'user' in "/notes/login.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
