@@ -1,14 +1,16 @@
-# Record_Management_System-Blind_Cross_Site_Scripting-1
-+ **Exploit Title:** Record_Management_System-Blind_Cross_Site_Scripting-1
+# CVE-2023-7135_Record_Management_System-Blind_Cross_Site_Scripting-1
++ **Exploit Title:** CVE-2023-7135_Record_Management_System-Blind_Cross_Site_Scripting-1
 + **Date:** 2023-26-12
 + **Exploit Author:** Hamdi Sevben
 + **Vendor Homepage:** https://code-projects.org/record-management-system-in-php-with-source-code/
 + **Software Link:** https://download-media.code-projects.org/2020/01/RECORD_MANAGEMENT_SYSTEM_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 1.0
 + **Tested on:** Windows 10 Pro + PHP 8.1.6, Apache 2.4.53
-+ **CVE:** CVE-
++ **CVE:** CVE-2023-7135
 
 ## References: 
++ **CVE-2023-7135:** https://vuldb.com/?id.249138
++ https://www.cve.org/CVERecord?id=CVE-2023-7135
 
 ## Description:
 Record Management System 1.0 allows Blind Cross-Site Scripting via parameter 'officename' in "/recordmanagement/main/offices.php". Record Management System is vulnerable to a blind cross-site scripting vulnerability because it fails to sufficiently sanitize user-supplied data. An attacker may leverage this issue to execute arbitrary script code in the browser of an unsuspecting user in the context of the affected site. This may allow the attacker to steal cookie-based authentication credentials and launch other attacks.
