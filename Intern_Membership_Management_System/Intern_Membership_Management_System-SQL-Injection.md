@@ -1,14 +1,16 @@
-# Intern_Membership_Management_System-SQL-Injection
-+ **Exploit Title:** Intern_Membership_Management_System-SQL-Injection
+# CVE-2023-7131_Intern_Membership_Management_System-SQL-Injection
++ **Exploit Title:** CVE-2023-7131_Intern_Membership_Management_System-SQL-Injection
 + **Date:** 2023-23-12
 + **Exploit Author:** Hamdi Sevben
 + **Vendor Homepage:** https://code-projects.org/intern-membership-management-system-in-php-with-source-code/
 + **Software Link:** https://download-media.code-projects.org/2020/01/INTERN_MEMBERSHIP_MANAGEMENT_SYSTEM_IN_PHP_WITH_SOURCE_CODE.zip
 + **Version:** 2.0
 + **Tested on:** Windows 10 Pro + PHP 8.1.5, Apache 2.4.53
-+ **CVE:** CVE-
++ **CVE:** CVE-2023-7131
 
 ## References: 
++ **CVE-2023-7131:** https://vuldb.com/?id.249134
++ https://www.cve.org/CVERecord?id=CVE-2023-7131
 
 ## Description:
 Intern Membership Management System 2.0 allows SQL Injection via parameters 'userName', 'firstName', 'lastName', and 'gender' in "/intern/user_registration/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
