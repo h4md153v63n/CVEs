@@ -1,6 +1,9 @@
 # 🔎 CVEs: 🎯
 |S.N|CVE Number|Vulnerability|
 |---|---|---|
+
+|13|[CVE-2023-7127]|(https://github.com/h4md153v63n/CVEs/blob/main/Automated_Voting_System/Automated_Voting_System-SQL_Injection-2.md)|Sql Injection|
+|12|[CVE-2023-7126]|(https://github.com/h4md153v63n/CVEs/blob/main/Automated_Voting_System/Automated_Voting_System-SQL_Injection-1.md)|Sql Injection|
 |11|[CVE-2023-7124](https://github.com/h4md153v63n/CVEs/blob/main/E-commerce_Site/E-commerce_Site-Reflected_Cross_Site_Scripting.md)|Reflected XSS|
 |10|[CVE-2023-7111](https://github.com/h4md153v63n/CVEs/blob/main/Library-Management-System/Library-Management-System_SQL_Injection-3.md)|Sql Injection|
 |09|[CVE-2023-7110](https://github.com/h4md153v63n/CVEs/blob/main/Library-Management-System/Library-Management-System_SQL_Injection-2.md)|Sql Injection|
@@ -12,7 +15,3 @@
 |03|[CVE-2022-40348](https://github.com/h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated)|Stored XSS|
 |02|[CVE-2022-40347](https://github.com/h4md153v63n/CVE-2022-40347_Intern-Record-System-phone-V1.0-SQL-Injection-Vulnerability-Unauthenticated)|Sql Injection|
 |01|[CVE-2022-40032 ](https://github.com/h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)|Sql Injection|
-
-
-|S.N|CVE Number|Vulnerability|  |S.N|CVE Number|Vulnerability|  
-|---|---|---|  |---|---|---|
