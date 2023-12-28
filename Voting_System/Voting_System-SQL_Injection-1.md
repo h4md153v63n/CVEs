@@ -12,6 +12,7 @@
 + **CVE-2023-7128:** https://vuldb.com/?id.249131
 + https://www.cve.org/CVERecord?id=CVE-2023-7128
 + https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7128
++ https://nvd.nist.gov/vuln/detail/CVE-2023-7128
 
 ## Description:
 Voting System 1.0 allows SQL Injection via parameter 'username' in "/votesystem/admin/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
