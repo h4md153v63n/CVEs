@@ -12,6 +12,7 @@
 + **CVE-2023-7106:** https://vuldb.com/?id.249001
 + https://www.cve.org/CVERecord?id=CVE-2023-7106
 + https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7106
++ https://nvd.nist.gov/vuln/detail/CVE-2023-7106
 
 ## Description:
 E-Commerce Website 1.0 allows SQL Injection via parameter 'prod_id' in "http://localhost/Electricks/Electricks-shop/pages/product_details.php?prod_id=11". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
