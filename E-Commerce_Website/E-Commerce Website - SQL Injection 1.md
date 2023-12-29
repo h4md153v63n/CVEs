@@ -12,6 +12,7 @@
 + **CVE-2023-7105:** https://vuldb.com/?id.249000
 + https://www.cve.org/CVERecord?id=CVE-2023-7105
 + https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7105
++ https://nvd.nist.gov/vuln/detail/CVE-2023-7105
 
 ## Description:
 E-Commerce Website 1.0 allows SQL Injection via parameter 'search' in "/Electricks/Electricks-shop/index_search.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
