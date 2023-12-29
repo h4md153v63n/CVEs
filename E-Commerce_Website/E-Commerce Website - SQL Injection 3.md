@@ -12,6 +12,7 @@
 + **CVE-2023-7107:** https://vuldb.com/?id.249002
 + https://www.cve.org/CVERecord?id=CVE-2023-7107
 + https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7107
++ https://nvd.nist.gov/vuln/detail/CVE-2023-7107
 
 ##  Description:
 E-Commerce Website 1.0 allows SQL Injection via parameters 'firstname', 'middlename', 'email', 'address', 'contact' and 'username' in "/Electricks/Electricks-shop/pages/user_signup.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
