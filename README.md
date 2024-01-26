@@ -29,3 +29,5 @@
 |03|[CVE-2022-40348](https://github.com/h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated)|Stored XSS|
 |02|[CVE-2022-40347](https://github.com/h4md153v63n/CVE-2022-40347_Intern-Record-System-phone-V1.0-SQL-Injection-Vulnerability-Unauthenticated)|Sql Injection|
 |01|[CVE-2022-40032](https://github.com/h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)|Sql Injection|
+
+
