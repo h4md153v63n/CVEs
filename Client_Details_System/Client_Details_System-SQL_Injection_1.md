@@ -13,9 +13,13 @@
 + https://www.cve.org/CVERecord?id=CVE-2023-7137
 + https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7137
 + https://nvd.nist.gov/vuln/detail/CVE-2023-7137
++ https://www.exploit-db.com/exploits/51880
++ https://packetstormsecurity.com/files/177565/Client-Details-System-1.0-SQL-Injection.html
+
 
 ## Description:
 Client Details System 1.0 allows SQL Injection via parameter 'uemail' in "/clientdetails/". Exploiting this issue could allow an attacker to compromise the application, access or modify data,  or exploit latest vulnerabilities in the underlying database.
+
 
 ## Proof of Concept:
 + Go to the User Login page: "http://localhost/clientdetails/"
